@@ -1,7 +1,7 @@
 import openai
 
 # Initialize the OpenAI client
-client = openai.OpenAI(api_key='')
+client = openai.OpenAI(api_key)
 
 def get_completion(prompt, model="gpt-4o-mini"):
     messages = [{"role": "user", "content": prompt}]
